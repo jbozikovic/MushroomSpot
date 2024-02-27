@@ -37,6 +37,7 @@
 		2DC563032B8E68F200B935F6 /* KeyboardObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC563022B8E68F200B935F6 /* KeyboardObserver.swift */; };
 		2DC563052B8E690100B935F6 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC563042B8E690100B935F6 /* Reachability.swift */; };
 		2DC563072B8E691E00B935F6 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC563062B8E691E00B935F6 /* Utility.swift */; };
+		2DC563122B8E6CF700B935F6 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2DC563112B8E6CF700B935F6 /* SnapKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DC563122B8E6CF700B935F6 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +432,9 @@
 			dependencies = (
 			);
 			name = MushroomSpot;
+			packageProductDependencies = (
+				2DC563112B8E6CF700B935F6 /* SnapKit */,
+			);
 			productName = MushroomSpot;
 			productReference = 2DC562912B8E447D00B935F6 /* MushroomSpot.app */;
 			productType = "com.apple.product-type.application";
@@ -503,6 +508,9 @@
 				Base,
 			);
 			mainGroup = 2DC562882B8E447D00B935F6;
+			packageReferences = (
+				2DC563102B8E6CF700B935F6 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 2DC562922B8E447D00B935F6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -916,6 +924,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2DC563102B8E6CF700B935F6 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2DC563112B8E6CF700B935F6 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2DC563102B8E6CF700B935F6 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2DC562892B8E447D00B935F6 /* Project object */;
 }
