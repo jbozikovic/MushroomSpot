@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		2DC562952B8E447D00B935F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC562942B8E447D00B935F6 /* AppDelegate.swift */; };
-		2DC562972B8E447D00B935F6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC562962B8E447D00B935F6 /* SceneDelegate.swift */; };
 		2DC562992B8E447D00B935F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC562982B8E447D00B935F6 /* ViewController.swift */; };
 		2DC5629C2B8E447D00B935F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DC5629A2B8E447D00B935F6 /* Main.storyboard */; };
 		2DC5629E2B8E447F00B935F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DC5629D2B8E447F00B935F6 /* Assets.xcassets */; };
@@ -38,7 +37,6 @@
 /* Begin PBXFileReference section */
 		2DC562912B8E447D00B935F6 /* MushroomSpot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MushroomSpot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DC562942B8E447D00B935F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2DC562962B8E447D00B935F6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2DC562982B8E447D00B935F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2DC5629B2B8E447D00B935F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2DC5629D2B8E447F00B935F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -99,13 +97,15 @@
 		2DC562932B8E447D00B935F6 /* MushroomSpot */ = {
 			isa = PBXGroup;
 			children = (
-				2DC562942B8E447D00B935F6 /* AppDelegate.swift */,
-				2DC562962B8E447D00B935F6 /* SceneDelegate.swift */,
-				2DC562982B8E447D00B935F6 /* ViewController.swift */,
-				2DC5629A2B8E447D00B935F6 /* Main.storyboard */,
+				2DC562C42B8E44D600B935F6 /* AppDelegate */,
 				2DC5629D2B8E447F00B935F6 /* Assets.xcassets */,
-				2DC5629F2B8E447F00B935F6 /* LaunchScreen.storyboard */,
+				2DC562C52B8E44E000B935F6 /* Common */,
 				2DC562A22B8E447F00B935F6 /* Info.plist */,
+				2DC5629F2B8E447F00B935F6 /* LaunchScreen.storyboard */,
+				2DC5629A2B8E447D00B935F6 /* Main.storyboard */,
+				2DC562C62B8E44E500B935F6 /* Resources */,
+				2DC562C72B8E44EF00B935F6 /* Screens */,
+				2DC562982B8E447D00B935F6 /* ViewController.swift */,
 			);
 			path = MushroomSpot;
 			sourceTree = "<group>";
@@ -125,6 +125,35 @@
 				2DC562B72B8E448000B935F6 /* MushroomSpotUITestsLaunchTests.swift */,
 			);
 			path = MushroomSpotUITests;
+			sourceTree = "<group>";
+		};
+		2DC562C42B8E44D600B935F6 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				2DC562942B8E447D00B935F6 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		2DC562C52B8E44E000B935F6 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		2DC562C62B8E44E500B935F6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2DC562C72B8E44EF00B935F6 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,6 +221,7 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1520;
 				LastUpgradeCheck = 1520;
+				ORGANIZATIONNAME = CocodeLab;
 				TargetAttributes = {
 					2DC562902B8E447D00B935F6 = {
 						CreatedOnToolsVersion = 15.2;
@@ -260,7 +290,6 @@
 			files = (
 				2DC562992B8E447D00B935F6 /* ViewController.swift in Sources */,
 				2DC562952B8E447D00B935F6 /* AppDelegate.swift in Sources */,
-				2DC562972B8E447D00B935F6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
