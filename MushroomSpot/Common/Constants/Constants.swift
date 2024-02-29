@@ -53,12 +53,16 @@ struct AppUI {
     static let titleFontColor: UIColor = .gray
     static let defaultNumberOfLines: Int = 1
     static let separatorColor: UIColor = UIColor(red: 150.0/255.0, green: 167.0/255.0, blue: 175.0/255.0, alpha: 1.0) // .black
+    static let passwordVisibilityBtnSize: CGFloat           = 24.0
 }
 
 
 //  MARK: - AppImages
 enum AppImages: String {
     case noImage = "photo.fill"
+    case user = "person.fill"
+    case visibleIcon = "eye"
+    case invisibleIcon = "eye.slash"
         
     var image: UIImage? {
         guard let systemImage = UIImage(systemName: self.rawValue) else {
@@ -72,11 +76,23 @@ enum AppImages: String {
 //  MARK: - AppStrings
 enum AppStrings: String {
     case cancel = "cancel"
+    case details = "details"
+    case email = "email"
     case fetchDataFailed = "fetch_data_failed"
+    case firstName = "first_name"
     case genericErrorMessage = "error_occurred_try_again"
+    case id = "id"
+    case invalidCredentials = "invalid_credentials"
+    case lastName = "last_name"
+    case latinName = "latin_name"
+    case login = "login"
+    case mushrooms = "mushrooms"
+    case name = "name"
     case noData = "no_data"
     case noInternet = "no_internet_connection"
     case ok = "ok"
+    case password = "password"
+    case username = "username"
             
     var localized: String {
         return self.rawValue.localized()
@@ -88,15 +104,18 @@ enum AppStrings: String {
 struct AppUrls {
     private init() {}
     
-    static let baseUrl      = "https://demo5845085.mockable.io/api/v1"
+    static let baseUrl      = "https://demo5845085.mockable.io/"
     static let login        = "api/v1/users/login"
     static let mushrooms    = "api/v1/mushrooms"
-    static let user         = "users/me"
+    static let user         = "users/me"    
 }
 
 
 //  MARK: - AppKeys
-enum AppKeys {}
+enum AppKeys: String {
+    case email = "email"
+    case password = "password"
+}
 
 
 //  MARK: - HTTPCode

@@ -38,6 +38,39 @@
 		2DC563052B8E690100B935F6 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC563042B8E690100B935F6 /* Reachability.swift */; };
 		2DC563072B8E691E00B935F6 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC563062B8E691E00B935F6 /* Utility.swift */; };
 		2DC563122B8E6CF700B935F6 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2DC563112B8E6CF700B935F6 /* SnapKit */; };
+		2DC563142B8E6E8100B935F6 /* MushroomsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC563132B8E6E8100B935F6 /* MushroomsCoordinator.swift */; };
+		2DC563162B8E703B00B935F6 /* Mushroom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC563152B8E703B00B935F6 /* Mushroom.swift */; };
+		2DC563182B8E726A00B935F6 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC563172B8E726900B935F6 /* User.swift */; };
+		2DC5631A2B8F21DC00B935F6 /* MushroomsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC563192B8F21DC00B935F6 /* MushroomsRepository.swift */; };
+		2DC5631C2B8F21F000B935F6 /* MushroomsAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC5631B2B8F21F000B935F6 /* MushroomsAPIService.swift */; };
+		2DC5631E2B8F23A000B935F6 /* MushroomsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC5631D2B8F23A000B935F6 /* MushroomsViewController.swift */; };
+		2DC563202B8F23DB00B935F6 /* MushroomsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC5631F2B8F23DB00B935F6 /* MushroomsViewModel.swift */; };
+		2DC563222B8F241300B935F6 /* MushroomCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC563212B8F241300B935F6 /* MushroomCellViewModel.swift */; };
+		2DC563252B8F25B600B935F6 /* MushroomsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC563242B8F25B600B935F6 /* MushroomsDataSource.swift */; };
+		2DC563282B8F3C5800B935F6 /* MushroomsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC563272B8F3C5800B935F6 /* MushroomsCell.swift */; };
+		2DC5632B2B8F40E600B935F6 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 2DC5632A2B8F40E600B935F6 /* SDWebImage */; };
+		2DC563322B8F4B3B00B935F6 /* MushroomDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC563312B8F4B3B00B935F6 /* MushroomDetailsViewModel.swift */; };
+		2DC563342B8F4F3E00B935F6 /* MushroomDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC563332B8F4F3E00B935F6 /* MushroomDetailsViewController.swift */; };
+		2DC563372B8F4F8300B935F6 /* MushroomDetailsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC563362B8F4F8300B935F6 /* MushroomDetailsDataSource.swift */; };
+		2DC563392B8F4FC200B935F6 /* CaptionValueCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC563382B8F4FC200B935F6 /* CaptionValueCell.swift */; };
+		2DC5633B2B8F4FF400B935F6 /* CaptionValueCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC5633A2B8F4FF400B935F6 /* CaptionValueCellViewModel.swift */; };
+		2DC5633D2B8F5DD300B935F6 /* MushroomDetailsHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC5633C2B8F5DD300B935F6 /* MushroomDetailsHeaderView.swift */; };
+		2DC5633F2B8F5E1F00B935F6 /* MushroomDetailsHeaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC5633E2B8F5E1F00B935F6 /* MushroomDetailsHeaderViewModel.swift */; };
+		2DC5635E2B8F6B6E00B935F6 /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC563542B8F6B6E00B935F6 /* UserProfileViewController.swift */; };
+		2DC5635F2B8F6B6E00B935F6 /* UserProfileDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC563562B8F6B6E00B935F6 /* UserProfileDataSource.swift */; };
+		2DC563622B8F6B6E00B935F6 /* UserProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC5635B2B8F6B6E00B935F6 /* UserProfileViewModel.swift */; };
+		2DC563662B8F6DE400B935F6 /* UserAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC563652B8F6DE400B935F6 /* UserAPIService.swift */; };
+		2DC563682B8F6E3D00B935F6 /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC563672B8F6E3D00B935F6 /* UserRepository.swift */; };
+		2DC5636A2B8F7B7B00B935F6 /* LoginCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC563692B8F7B7B00B935F6 /* LoginCoordinator.swift */; };
+		2DC5636C2B8F82FB00B935F6 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC5636B2B8F82FB00B935F6 /* LoginViewModel.swift */; };
+		2DC5636F2B8F868800B935F6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC5636D2B8F868800B935F6 /* LoginViewController.swift */; };
+		2DC563702B8F868800B935F6 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DC5636E2B8F868800B935F6 /* LoginViewController.xib */; };
+		2DC563732B8F871600B935F6 /* PasswordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC563722B8F871600B935F6 /* PasswordTextField.swift */; };
+		2DC563752B8F89BF00B935F6 /* UITextField+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC563742B8F89BF00B935F6 /* UITextField+Extensions.swift */; };
+		2DC563772B8F945400B935F6 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC563762B8F945400B935F6 /* AuthService.swift */; };
+		2DC563792B908EFA00B935F6 /* Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC563782B908EF900B935F6 /* Auth.swift */; };
+		2DC5637C2B90916E00B935F6 /* KeychainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC5637B2B90916E00B935F6 /* KeychainService.swift */; };
+		2DC563802B9099D600B935F6 /* MushroomItemProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC5637F2B9099D600B935F6 /* MushroomItemProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,6 +125,38 @@
 		2DC563022B8E68F200B935F6 /* KeyboardObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardObserver.swift; sourceTree = "<group>"; };
 		2DC563042B8E690100B935F6 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		2DC563062B8E691E00B935F6 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		2DC563132B8E6E8100B935F6 /* MushroomsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MushroomsCoordinator.swift; sourceTree = "<group>"; };
+		2DC563152B8E703B00B935F6 /* Mushroom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mushroom.swift; sourceTree = "<group>"; };
+		2DC563172B8E726900B935F6 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		2DC563192B8F21DC00B935F6 /* MushroomsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MushroomsRepository.swift; sourceTree = "<group>"; };
+		2DC5631B2B8F21F000B935F6 /* MushroomsAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MushroomsAPIService.swift; sourceTree = "<group>"; };
+		2DC5631D2B8F23A000B935F6 /* MushroomsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MushroomsViewController.swift; sourceTree = "<group>"; };
+		2DC5631F2B8F23DB00B935F6 /* MushroomsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MushroomsViewModel.swift; sourceTree = "<group>"; };
+		2DC563212B8F241300B935F6 /* MushroomCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MushroomCellViewModel.swift; sourceTree = "<group>"; };
+		2DC563242B8F25B600B935F6 /* MushroomsDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MushroomsDataSource.swift; sourceTree = "<group>"; };
+		2DC563272B8F3C5800B935F6 /* MushroomsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MushroomsCell.swift; sourceTree = "<group>"; };
+		2DC563312B8F4B3B00B935F6 /* MushroomDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MushroomDetailsViewModel.swift; sourceTree = "<group>"; };
+		2DC563332B8F4F3E00B935F6 /* MushroomDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MushroomDetailsViewController.swift; sourceTree = "<group>"; };
+		2DC563362B8F4F8300B935F6 /* MushroomDetailsDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MushroomDetailsDataSource.swift; sourceTree = "<group>"; };
+		2DC563382B8F4FC200B935F6 /* CaptionValueCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptionValueCell.swift; sourceTree = "<group>"; };
+		2DC5633A2B8F4FF400B935F6 /* CaptionValueCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptionValueCellViewModel.swift; sourceTree = "<group>"; };
+		2DC5633C2B8F5DD300B935F6 /* MushroomDetailsHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MushroomDetailsHeaderView.swift; sourceTree = "<group>"; };
+		2DC5633E2B8F5E1F00B935F6 /* MushroomDetailsHeaderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MushroomDetailsHeaderViewModel.swift; sourceTree = "<group>"; };
+		2DC563542B8F6B6E00B935F6 /* UserProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
+		2DC563562B8F6B6E00B935F6 /* UserProfileDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileDataSource.swift; sourceTree = "<group>"; };
+		2DC5635B2B8F6B6E00B935F6 /* UserProfileViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileViewModel.swift; sourceTree = "<group>"; };
+		2DC563652B8F6DE400B935F6 /* UserAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAPIService.swift; sourceTree = "<group>"; };
+		2DC563672B8F6E3D00B935F6 /* UserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepository.swift; sourceTree = "<group>"; };
+		2DC563692B8F7B7B00B935F6 /* LoginCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCoordinator.swift; sourceTree = "<group>"; };
+		2DC5636B2B8F82FB00B935F6 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		2DC5636D2B8F868800B935F6 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2DC5636E2B8F868800B935F6 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		2DC563722B8F871600B935F6 /* PasswordTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordTextField.swift; sourceTree = "<group>"; };
+		2DC563742B8F89BF00B935F6 /* UITextField+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extensions.swift"; sourceTree = "<group>"; };
+		2DC563762B8F945400B935F6 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		2DC563782B908EF900B935F6 /* Auth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auth.swift; sourceTree = "<group>"; };
+		2DC5637B2B90916E00B935F6 /* KeychainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainService.swift; sourceTree = "<group>"; };
+		2DC5637F2B9099D600B935F6 /* MushroomItemProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MushroomItemProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +164,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DC5632B2B8F40E600B935F6 /* SDWebImage in Frameworks */,
 				2DC563122B8E6CF700B935F6 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -186,12 +252,14 @@
 				2DC562D02B8E65AB00B935F6 /* Constants */,
 				2DC562D32B8E66C700B935F6 /* Data */,
 				2DC562D42B8E66CB00B935F6 /* Extensions */,
+				2DC5637A2B90916400B935F6 /* KeychainService */,
 				2DC562D52B8E66CE00B935F6 /* NetworkLayerService */,
 				2DC562D62B8E66D000B935F6 /* PropertyWrappers */,
 				2DC562D72B8E66D300B935F6 /* Protocols */,
 				2DC562D82B8E66D500B935F6 /* Publishers */,
 				2DC562D92B8E66D800B935F6 /* Reachability */,
 				2DC562DA2B8E66DC00B935F6 /* Utility */,
+				2DC563712B8F870200B935F6 /* Views */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -270,6 +338,7 @@
 			children = (
 				2DC562E62B8E67A100B935F6 /* Reachability+Extensions.swift */,
 				2DC562E82B8E67B300B935F6 /* String+Extensions.swift */,
+				2DC563742B8F89BF00B935F6 /* UITextField+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -297,6 +366,7 @@
 				2DC562F02B8E682B00B935F6 /* Configurable.swift */,
 				2DC562F22B8E684000B935F6 /* ErrorHandlerProtocol.swift */,
 				2DC562F42B8E685400B935F6 /* Loadable.swift */,
+				2DC5637F2B9099D600B935F6 /* MushroomItemProtocol.swift */,
 				2DC562F62B8E686800B935F6 /* NavigationBarProtocol.swift */,
 				2DC562F82B8E687E00B935F6 /* Presentable.swift */,
 				2DC562FA2B8E689600B935F6 /* Requestable.swift */,
@@ -334,6 +404,9 @@
 		2DC562DB2B8E66E700B935F6 /* DAL */ = {
 			isa = PBXGroup;
 			children = (
+				2DC563762B8F945400B935F6 /* AuthService.swift */,
+				2DC5631B2B8F21F000B935F6 /* MushroomsAPIService.swift */,
+				2DC563652B8F6DE400B935F6 /* UserAPIService.swift */,
 			);
 			path = DAL;
 			sourceTree = "<group>";
@@ -341,8 +414,11 @@
 		2DC562DC2B8E66EA00B935F6 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				2DC563782B908EF900B935F6 /* Auth.swift */,
 				2DC562E22B8E673D00B935F6 /* HTTPRequest.swift */,
+				2DC563152B8E703B00B935F6 /* Mushroom.swift */,
 				2DC562E42B8E674D00B935F6 /* NetworkResponse.swift */,
+				2DC563172B8E726900B935F6 /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -350,6 +426,8 @@
 		2DC562DD2B8E66EC00B935F6 /* Repository */ = {
 			isa = PBXGroup;
 			children = (
+				2DC563192B8F21DC00B935F6 /* MushroomsRepository.swift */,
+				2DC563672B8F6E3D00B935F6 /* UserRepository.swift */,
 			);
 			path = Repository;
 			sourceTree = "<group>";
@@ -368,8 +446,9 @@
 			isa = PBXGroup;
 			children = (
 				2DC5630D2B8E697400B935F6 /* Coordinator */,
-				2DC5630C2B8E697100B935F6 /* ViewController */,
-				2DC5630E2B8E697700B935F6 /* ViewModel */,
+				2DC5632D2B8F4A3100B935F6 /* Details */,
+				2DC5632C2B8F4A2C00B935F6 /* List */,
+				2DC563402B8F6AFE00B935F6 /* UserProfile */,
 			);
 			path = Mushrooms;
 			sourceTree = "<group>";
@@ -377,6 +456,8 @@
 		2DC5630A2B8E696500B935F6 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				2DC5636D2B8F868800B935F6 /* LoginViewController.swift */,
+				2DC5636E2B8F868800B935F6 /* LoginViewController.xib */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -384,6 +465,7 @@
 		2DC5630B2B8E696800B935F6 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				2DC5636B2B8F82FB00B935F6 /* LoginViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -391,6 +473,7 @@
 		2DC5630C2B8E697100B935F6 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				2DC5631D2B8F23A000B935F6 /* MushroomsViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -398,6 +481,7 @@
 		2DC5630D2B8E697400B935F6 /* Coordinator */ = {
 			isa = PBXGroup;
 			children = (
+				2DC563132B8E6E8100B935F6 /* MushroomsCoordinator.swift */,
 			);
 			path = Coordinator;
 			sourceTree = "<group>";
@@ -405,6 +489,8 @@
 		2DC5630E2B8E697700B935F6 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				2DC5631F2B8F23DB00B935F6 /* MushroomsViewModel.swift */,
+				2DC563212B8F241300B935F6 /* MushroomCellViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -412,8 +498,148 @@
 		2DC5630F2B8E697E00B935F6 /* Coordinator */ = {
 			isa = PBXGroup;
 			children = (
+				2DC563692B8F7B7B00B935F6 /* LoginCoordinator.swift */,
 			);
 			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		2DC563232B8F25A500B935F6 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				2DC563242B8F25B600B935F6 /* MushroomsDataSource.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		2DC563262B8F3C3A00B935F6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2DC563272B8F3C5800B935F6 /* MushroomsCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2DC5632C2B8F4A2C00B935F6 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				2DC563232B8F25A500B935F6 /* DataSource */,
+				2DC563262B8F3C3A00B935F6 /* View */,
+				2DC5630C2B8E697100B935F6 /* ViewController */,
+				2DC5630E2B8E697700B935F6 /* ViewModel */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		2DC5632D2B8F4A3100B935F6 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				2DC563352B8F4F7200B935F6 /* DataSource */,
+				2DC563302B8F4AE900B935F6 /* ViewController */,
+				2DC5632F2B8F4AE600B935F6 /* ViewModel */,
+				2DC5632E2B8F4AE300B935F6 /* View */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		2DC5632E2B8F4AE300B935F6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2DC5633C2B8F5DD300B935F6 /* MushroomDetailsHeaderView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2DC5632F2B8F4AE600B935F6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2DC563312B8F4B3B00B935F6 /* MushroomDetailsViewModel.swift */,
+				2DC5633E2B8F5E1F00B935F6 /* MushroomDetailsHeaderViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2DC563302B8F4AE900B935F6 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2DC563332B8F4F3E00B935F6 /* MushroomDetailsViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		2DC563352B8F4F7200B935F6 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				2DC563362B8F4F8300B935F6 /* MushroomDetailsDataSource.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		2DC563402B8F6AFE00B935F6 /* UserProfile */ = {
+			isa = PBXGroup;
+			children = (
+				2DC563552B8F6B6E00B935F6 /* DataSource */,
+				2DC563532B8F6B6E00B935F6 /* ViewController */,
+				2DC5635A2B8F6B6E00B935F6 /* ViewModel */,
+			);
+			path = UserProfile;
+			sourceTree = "<group>";
+		};
+		2DC563532B8F6B6E00B935F6 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2DC563542B8F6B6E00B935F6 /* UserProfileViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		2DC563552B8F6B6E00B935F6 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				2DC563562B8F6B6E00B935F6 /* UserProfileDataSource.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		2DC5635A2B8F6B6E00B935F6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2DC5635B2B8F6B6E00B935F6 /* UserProfileViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2DC563712B8F870200B935F6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2DC5637E2B90984B00B935F6 /* PasswordTextField */,
+				2DC5637D2B9095F000B935F6 /* CaptionValueCell */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2DC5637A2B90916400B935F6 /* KeychainService */ = {
+			isa = PBXGroup;
+			children = (
+				2DC5637B2B90916E00B935F6 /* KeychainService.swift */,
+			);
+			path = KeychainService;
+			sourceTree = "<group>";
+		};
+		2DC5637D2B9095F000B935F6 /* CaptionValueCell */ = {
+			isa = PBXGroup;
+			children = (
+				2DC563382B8F4FC200B935F6 /* CaptionValueCell.swift */,
+				2DC5633A2B8F4FF400B935F6 /* CaptionValueCellViewModel.swift */,
+			);
+			path = CaptionValueCell;
+			sourceTree = "<group>";
+		};
+		2DC5637E2B90984B00B935F6 /* PasswordTextField */ = {
+			isa = PBXGroup;
+			children = (
+				2DC563722B8F871600B935F6 /* PasswordTextField.swift */,
+			);
+			path = PasswordTextField;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -434,6 +660,7 @@
 			name = MushroomSpot;
 			packageProductDependencies = (
 				2DC563112B8E6CF700B935F6 /* SnapKit */,
+				2DC5632A2B8F40E600B935F6 /* SDWebImage */,
 			);
 			productName = MushroomSpot;
 			productReference = 2DC562912B8E447D00B935F6 /* MushroomSpot.app */;
@@ -510,6 +737,7 @@
 			mainGroup = 2DC562882B8E447D00B935F6;
 			packageReferences = (
 				2DC563102B8E6CF700B935F6 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				2DC563292B8F40E600B935F6 /* XCRemoteSwiftPackageReference "SDWebImage" */,
 			);
 			productRefGroup = 2DC562922B8E447D00B935F6 /* Products */;
 			projectDirPath = "";
@@ -527,6 +755,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DC563702B8F868800B935F6 /* LoginViewController.xib in Resources */,
 				2DC562A12B8E447F00B935F6 /* LaunchScreen.storyboard in Resources */,
 				2DC5629E2B8E447F00B935F6 /* Assets.xcassets in Resources */,
 				2DC562CC2B8E621800B935F6 /* Localizable.xcstrings in Resources */,
@@ -555,27 +784,58 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DC563622B8F6B6E00B935F6 /* UserProfileViewModel.swift in Sources */,
+				2DC563662B8F6DE400B935F6 /* UserAPIService.swift in Sources */,
+				2DC5631C2B8F21F000B935F6 /* MushroomsAPIService.swift in Sources */,
+				2DC563752B8F89BF00B935F6 /* UITextField+Extensions.swift in Sources */,
+				2DC563182B8E726A00B935F6 /* User.swift in Sources */,
+				2DC563202B8F23DB00B935F6 /* MushroomsViewModel.swift in Sources */,
 				2DC562CF2B8E650500B935F6 /* AppCoordinator.swift in Sources */,
+				2DC5633F2B8F5E1F00B935F6 /* MushroomDetailsHeaderViewModel.swift in Sources */,
 				2DC562F92B8E687E00B935F6 /* Presentable.swift in Sources */,
+				2DC563372B8F4F8300B935F6 /* MushroomDetailsDataSource.swift in Sources */,
+				2DC563342B8F4F3E00B935F6 /* MushroomDetailsViewController.swift in Sources */,
 				2DC562F52B8E685400B935F6 /* Loadable.swift in Sources */,
+				2DC5633D2B8F5DD300B935F6 /* MushroomDetailsHeaderView.swift in Sources */,
+				2DC5636F2B8F868800B935F6 /* LoginViewController.swift in Sources */,
+				2DC5637C2B90916E00B935F6 /* KeychainService.swift in Sources */,
+				2DC563162B8E703B00B935F6 /* Mushroom.swift in Sources */,
+				2DC5635F2B8F6B6E00B935F6 /* UserProfileDataSource.swift in Sources */,
 				2DC562EB2B8E67CD00B935F6 /* NetworkLayerService.swift in Sources */,
+				2DC563732B8F871600B935F6 /* PasswordTextField.swift in Sources */,
 				2DC562992B8E447D00B935F6 /* ViewController.swift in Sources */,
+				2DC563322B8F4B3B00B935F6 /* MushroomDetailsViewModel.swift in Sources */,
 				2DC562E32B8E673D00B935F6 /* HTTPRequest.swift in Sources */,
+				2DC563282B8F3C5800B935F6 /* MushroomsCell.swift in Sources */,
+				2DC563142B8E6E8100B935F6 /* MushroomsCoordinator.swift in Sources */,
+				2DC5633B2B8F4FF400B935F6 /* CaptionValueCellViewModel.swift in Sources */,
 				2DC562EF2B8E681400B935F6 /* ActivityIndicatorPresentable.swift in Sources */,
+				2DC563252B8F25B600B935F6 /* MushroomsDataSource.swift in Sources */,
 				2DC562F32B8E684000B935F6 /* ErrorHandlerProtocol.swift in Sources */,
 				2DC562952B8E447D00B935F6 /* AppDelegate.swift in Sources */,
+				2DC563222B8F241300B935F6 /* MushroomCellViewModel.swift in Sources */,
+				2DC5631A2B8F21DC00B935F6 /* MushroomsRepository.swift in Sources */,
+				2DC5636C2B8F82FB00B935F6 /* LoginViewModel.swift in Sources */,
 				2DC562F12B8E682B00B935F6 /* Configurable.swift in Sources */,
 				2DC563012B8E68D600B935F6 /* ViewStyleable.swift in Sources */,
 				2DC562E92B8E67B300B935F6 /* String+Extensions.swift in Sources */,
 				2DC562E72B8E67A100B935F6 /* Reachability+Extensions.swift in Sources */,
 				2DC562FD2B8E68A900B935F6 /* Reusable.swift in Sources */,
 				2DC562D22B8E65B500B935F6 /* Constants.swift in Sources */,
+				2DC563802B9099D600B935F6 /* MushroomItemProtocol.swift in Sources */,
 				2DC562F72B8E686800B935F6 /* NavigationBarProtocol.swift in Sources */,
 				2DC563072B8E691E00B935F6 /* Utility.swift in Sources */,
+				2DC563792B908EFA00B935F6 /* Auth.swift in Sources */,
 				2DC563032B8E68F200B935F6 /* KeyboardObserver.swift in Sources */,
 				2DC562ED2B8E67F900B935F6 /* URLFormatter.swift in Sources */,
+				2DC5631E2B8F23A000B935F6 /* MushroomsViewController.swift in Sources */,
+				2DC563682B8F6E3D00B935F6 /* UserRepository.swift in Sources */,
+				2DC5635E2B8F6B6E00B935F6 /* UserProfileViewController.swift in Sources */,
+				2DC5636A2B8F7B7B00B935F6 /* LoginCoordinator.swift in Sources */,
 				2DC563052B8E690100B935F6 /* Reachability.swift in Sources */,
+				2DC563392B8F4FC200B935F6 /* CaptionValueCell.swift in Sources */,
 				2DC562FF2B8E68C300B935F6 /* ViewControllerProtocol.swift in Sources */,
+				2DC563772B8F945400B935F6 /* AuthService.swift in Sources */,
 				2DC562FB2B8E689600B935F6 /* Requestable.swift in Sources */,
 				2DC562E52B8E674D00B935F6 /* NetworkResponse.swift in Sources */,
 			);
@@ -934,6 +1194,14 @@
 				minimumVersion = 5.7.1;
 			};
 		};
+		2DC563292B8F40E600B935F6 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.19.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -941,6 +1209,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 2DC563102B8E6CF700B935F6 /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
+		};
+		2DC5632A2B8F40E600B935F6 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2DC563292B8F40E600B935F6 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Combine
 
 //  MARK: - Coordinator protocol
 protocol Coordinator: AnyObject {
@@ -36,6 +37,7 @@ class AppCoordinator: Coordinator {
     var childCoordinators: [Coordinator]
     var presenter: UINavigationController
     let window: UIWindow?
+    private var cancellables = Set<AnyCancellable>()
     
     // MARK: - Initializer
     init(window: UIWindow?) {
@@ -55,7 +57,8 @@ class AppCoordinator: Coordinator {
 //  MARK: - Startup checks
 private extension AppCoordinator {
     var isUserLoggedIn: Bool {
-        true
+        let authService = AuthService(networkLayerService: NetworkLayerService(), keychainService: KeychainService())
+        return authService.getAuthToken() != nil        
     }
     
     func performStartupChecks() {
@@ -66,10 +69,24 @@ private extension AppCoordinator {
 
 //  MARK: - LoginCoordinator
 private extension AppCoordinator {
-    func startLoginCoordinator() {}
+    func startLoginCoordinator() {
+        let coordinator = LoginCoordinator(presenter: presenter)
+        addChildCoordinator(coordinator: coordinator)
+        coordinator.loginCoordinatorDidFinish.sink { [weak self] _ in
+            guard let weakSelf = self else { return }
+            weakSelf.removeChildCoordinator(coordinator: coordinator)
+            weakSelf.startMushroomsCoordinator()
+        }.store(in: &cancellables)
+                
+        coordinator.start()
+    }
 }
 
 //  MARK: - MushroomsCoordinator
 private extension AppCoordinator {
-    func startMushroomsCoordinator() {}
+    func startMushroomsCoordinator() {
+        let coordinator = MushroomsCoordinator(presenter: presenter)
+        addChildCoordinator(coordinator: coordinator)
+        coordinator.start()
+    }
 }

@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "9BBA3893-B511-4DD9-B0F5-B15961209C64"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B7DE5236-558F-401E-83A8-236DE289D485"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MushroomSpot/Screens/Mushrooms/ViewModel/MushroomsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "prepareDataAndReload()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B7DE5236-558F-401E-83A8-236DE289D485 - ce0a1ab2430780ff"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MushroomSpot.MushroomsViewModel.prepareDataAndReload() -&gt; ()"
+                  moduleName = "MushroomSpot"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/juricabozikovic/Documents/projects/MyProjects/Glooko/MushroomSpot/MushroomSpot/Screens/Mushrooms/ViewModel/MushroomsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "156">
+               </Location>
+               <Location
+                  uuid = "B7DE5236-558F-401E-83A8-236DE289D485 - 61de31117d19987"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (MushroomSpot.Mushroom) -&gt; MushroomSpot.MushroomCellViewModel in MushroomSpot.MushroomsViewModel.prepareDataAndReload() -&gt; ()"
+                  moduleName = "MushroomSpot"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/juricabozikovic/Documents/projects/MyProjects/Glooko/MushroomSpot/MushroomSpot/Screens/Mushrooms/ViewModel/MushroomsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "B7DE5236-558F-401E-83A8-236DE289D485 - ce0a1ab2430780ff"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MushroomSpot.MushroomsViewModel.prepareDataAndReload() -&gt; ()"
+                  moduleName = "MushroomSpot"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/juricabozikovic/Documents/projects/MyProjects/Glooko/MushroomSpot/MushroomSpot/Screens/Mushrooms/ViewModel/MushroomsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  uuid = "B7DE5236-558F-401E-83A8-236DE289D485 - ce0a1ab24307811e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MushroomSpot.MushroomsViewModel.prepareDataAndReload() -&gt; ()"
+                  moduleName = "MushroomSpot"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/juricabozikovic/Documents/projects/MyProjects/Glooko/MushroomSpot/MushroomSpot/Screens/Mushrooms/ViewModel/MushroomsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "78"
+                  endingLineNumber = "78"
+                  offsetFromSymbolStart = "68">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C0AE9FC9-A0A3-4F31-B84C-F4A94A69506A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MushroomSpot/Screens/Mushrooms/ViewModel/MushroomsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "loadData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C0AE9FC9-A0A3-4F31-B84C-F4A94A69506A - 8dbe37bc73e67a28"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (MushroomSpot.MushroomReponse) -&gt; () in MushroomSpot.MushroomsViewModel.loadData() -&gt; ()"
+                  moduleName = "MushroomSpot"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/juricabozikovic/Documents/projects/MyProjects/Glooko/MushroomSpot/MushroomSpot/Screens/Mushrooms/ViewModel/MushroomsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "164">
+               </Location>
+               <Location
+                  uuid = "C0AE9FC9-A0A3-4F31-B84C-F4A94A69506A - 8dbe37bc73e67a28"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (MushroomSpot.MushroomReponse) -&gt; () in MushroomSpot.MushroomsViewModel.loadData() -&gt; ()"
+                  moduleName = "MushroomSpot"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/juricabozikovic/Documents/projects/MyProjects/Glooko/MushroomSpot/MushroomSpot/Screens/Mushrooms/ViewModel/MushroomsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "C0AE9FC9-A0A3-4F31-B84C-F4A94A69506A - 8dbe37bc73e67a28"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (MushroomSpot.MushroomReponse) -&gt; () in MushroomSpot.MushroomsViewModel.loadData() -&gt; ()"
+                  moduleName = "MushroomSpot"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/juricabozikovic/Documents/projects/MyProjects/Glooko/MushroomSpot/MushroomSpot/Screens/Mushrooms/ViewModel/MushroomsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "C0AE9FC9-A0A3-4F31-B84C-F4A94A69506A - 8dbe37bc73e67a28"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (MushroomSpot.MushroomReponse) -&gt; () in MushroomSpot.MushroomsViewModel.loadData() -&gt; ()"
+                  moduleName = "MushroomSpot"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/juricabozikovic/Documents/projects/MyProjects/Glooko/MushroomSpot/MushroomSpot/Screens/Mushrooms/ViewModel/MushroomsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  uuid = "C0AE9FC9-A0A3-4F31-B84C-F4A94A69506A - 8dbe37bc73e67a28"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (MushroomSpot.MushroomReponse) -&gt; () in MushroomSpot.MushroomsViewModel.loadData() -&gt; ()"
+                  moduleName = "MushroomSpot"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/juricabozikovic/Documents/projects/MyProjects/Glooko/MushroomSpot/MushroomSpot/Screens/Mushrooms/ViewModel/MushroomsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "100">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8743461B-5468-480F-9B66-61C60E48E2F1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MushroomSpot/Screens/Mushrooms/ViewModel/MushroomCellViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "convertBase64ToImage"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "85CE7EBB-C017-44AE-AED4-1423B2EC2E8E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MushroomSpot/Screens/Mushrooms/UserProfile/ViewModel/UserProfileViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "loadData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "85CE7EBB-C017-44AE-AED4-1423B2EC2E8E - fd064205f0f9706e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (MushroomSpot.User) -&gt; () in MushroomSpot.UserProfileViewModel.loadData() -&gt; ()"
+                  moduleName = "MushroomSpot"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/juricabozikovic/Documents/projects/MyProjects/Glooko/MushroomSpot/MushroomSpot/Screens/Mushrooms/UserProfile/ViewModel/UserProfileViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "292">
+               </Location>
+               <Location
+                  uuid = "85CE7EBB-C017-44AE-AED4-1423B2EC2E8E - 34f37510269d30ff"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (MushroomSpot.UserReponse) -&gt; () in MushroomSpot.UserProfileViewModel.loadData() -&gt; ()"
+                  moduleName = "MushroomSpot"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/juricabozikovic/Documents/projects/MyProjects/Glooko/MushroomSpot/MushroomSpot/Screens/Mushrooms/UserProfile/ViewModel/UserProfileViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "260">
+               </Location>
+               <Location
+                  uuid = "85CE7EBB-C017-44AE-AED4-1423B2EC2E8E - 34f37510269d30ff"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (MushroomSpot.UserReponse) -&gt; () in MushroomSpot.UserProfileViewModel.loadData() -&gt; ()"
+                  moduleName = "MushroomSpot"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/juricabozikovic/Documents/projects/MyProjects/Glooko/MushroomSpot/MushroomSpot/Screens/Mushrooms/UserProfile/ViewModel/UserProfileViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "228">
+               </Location>
+               <Location
+                  uuid = "85CE7EBB-C017-44AE-AED4-1423B2EC2E8E - 34f37510269d3103"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (MushroomSpot.UserReponse) -&gt; () in MushroomSpot.UserProfileViewModel.loadData() -&gt; ()"
+                  moduleName = "MushroomSpot"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/juricabozikovic/Documents/projects/MyProjects/Glooko/MushroomSpot/MushroomSpot/Screens/Mushrooms/UserProfile/ViewModel/UserProfileViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "72"
+                  endingLineNumber = "72"
+                  offsetFromSymbolStart = "228">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BFB164C1-E741-4E10-AEDA-4716E9CC9745"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MushroomSpot/Screens/Mushrooms/UserProfile/ViewModel/UserProfileViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "loadData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BFB164C1-E741-4E10-AEDA-4716E9CC9745 - b0b794ae176564c7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MushroomSpot.UserProfileViewModel.loadData() -&gt; ()"
+                  moduleName = "MushroomSpot"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/juricabozikovic/Documents/projects/MyProjects/Glooko/MushroomSpot/MushroomSpot/Screens/Mushrooms/UserProfile/ViewModel/UserProfileViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  uuid = "BFB164C1-E741-4E10-AEDA-4716E9CC9745 - b0b794ae1765672a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MushroomSpot.UserProfileViewModel.loadData() -&gt; ()"
+                  moduleName = "MushroomSpot"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/juricabozikovic/Documents/projects/MyProjects/Glooko/MushroomSpot/MushroomSpot/Screens/Mushrooms/UserProfile/ViewModel/UserProfileViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "84">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F97C4AC7-8507-4AF2-B171-987250CA8CFA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MushroomSpot/Common/Data/Repository/UserRepository.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "getUser()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F97C4AC7-8507-4AF2-B171-987250CA8CFA - 86641ef99e2504c8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MushroomSpot.UserRepository.getUser() -&gt; Combine.AnyPublisher&lt;MushroomSpot.User, Swift.Error&gt;"
+                  moduleName = "MushroomSpot"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/juricabozikovic/Documents/projects/MyProjects/Glooko/MushroomSpot/MushroomSpot/Common/Data/Repository/UserRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "148">
+               </Location>
+               <Location
+                  uuid = "F97C4AC7-8507-4AF2-B171-987250CA8CFA - 574c50c24814a352"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MushroomSpot.UserRepository.getUser() -&gt; Combine.AnyPublisher&lt;MushroomSpot.UserReponse, Swift.Error&gt;"
+                  moduleName = "MushroomSpot"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/juricabozikovic/Documents/projects/MyProjects/Glooko/MushroomSpot/MushroomSpot/Common/Data/Repository/UserRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "148">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CC2D06B4-370C-40B0-911D-396D9F4F3E09"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MushroomSpot/Common/Data/DAL/UserAPIService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "getUser()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CC2D06B4-370C-40B0-911D-396D9F4F3E09 - ffd268eb21a39c2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MushroomSpot.UserAPIService.getUser() -&gt; Combine.AnyPublisher&lt;MushroomSpot.User, Swift.Error&gt;"
+                  moduleName = "MushroomSpot"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/juricabozikovic/Documents/projects/MyProjects/Glooko/MushroomSpot/MushroomSpot/Common/Data/DAL/UserAPIService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "148">
+               </Location>
+               <Location
+                  uuid = "CC2D06B4-370C-40B0-911D-396D9F4F3E09 - 615fe97ffce50e04"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MushroomSpot.UserAPIService.getUser() -&gt; Combine.AnyPublisher&lt;MushroomSpot.UserReponse, Swift.Error&gt;"
+                  moduleName = "MushroomSpot"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/juricabozikovic/Documents/projects/MyProjects/Glooko/MushroomSpot/MushroomSpot/Common/Data/DAL/UserAPIService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "148">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

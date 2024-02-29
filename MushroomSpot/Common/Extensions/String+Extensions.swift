@@ -29,3 +29,18 @@ extension Optional where Wrapped == String {
         return unwrapped.isEmpty
     }
 }
+
+// MARK: - String validations (email, password)
+extension String {
+    var isValidEmail: Bool {
+        return NSPredicate(format: "SELF MATCHES %@", "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}")
+            .evaluate(with: self)
+    }
+    /** Check is password valid - must contain at least eight characters, at least one number and both lower and uppercase letters and special characters)
+    @author Jurica Bozikovic
+    */
+    var isValidPassword: Bool {
+        return NSPredicate(format: "SELF MATCHES %@", "^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&<>*~:`-]).{8,}$")
+            .evaluate(with: self)
+    }
+}
